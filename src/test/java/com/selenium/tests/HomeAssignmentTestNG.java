@@ -26,9 +26,9 @@ public class HomeAssignmentTestNG {
 	@Test
 	public void loginTest(){
 		
-		/*driver.get("http://52.66.207.5:8080/webapp");
-		driver.findElement(By.id("username")).sendKeys("swastik");
-		driver.findElement(By.id("password")).sendKeys("swastik");
+		/*driver.get("http://13.233.124.116:8080/webapp");
+		driver.findElement(By.id("username")).sendKeys("ravi");
+		driver.findElement(By.id("password")).sendKeys("ravi");
 		driver.findElement(By.xpath("//button[text()='Click Me']")).click();
 		Assert.assertEquals(driver.findElement(By.xpath("//font")).getText(), "LOGIN SUCCESSFUL");*/
 		driver.get("http://seleniumhq.org/");
@@ -37,7 +37,7 @@ public class HomeAssignmentTestNG {
 	@AfterTest
 	public void finishTest(){
 		
-		driver.close();
+		//driver.close();
 		System.out.println("Test Completed Successfully");
 		
 	}
